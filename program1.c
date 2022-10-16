@@ -7,7 +7,7 @@ op not a leap year
 */
 
 #include<stdio.h>
-void main(){
+int main(){
 	int x;
 	printf("Enter Year: \n");
 	scanf("%d", &x);
@@ -22,4 +22,5 @@ void main(){
 	else{
 		printf("It is not a Leap Year \n");
 	}
+return 0;
 }
